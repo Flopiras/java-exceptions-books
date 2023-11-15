@@ -66,4 +66,13 @@ public class Book {
 
 		this.editor = editor;
 	}
+	
+	@Override
+	public String toString() {
+		
+		return "Titolo: " + getTitle() + "\n"
+				+ "di: " + getAuthor() + "\n"
+				+ "Pagine: " + getPages() + "\n"
+				+ "edito da: " + getEditor();
+	}
 }
