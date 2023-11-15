@@ -19,7 +19,7 @@ public class Main {
 			//open Scanner
 			in = new Scanner(System.in);
 			
-			while(books.length == BOOKS_COUNT) {
+			for (int x = 0; x < books.length; x++) {
 				
 				Book b = null;
 				
@@ -51,7 +51,11 @@ public class Main {
 				in.close();
 		}
 		
-		System.out.println(books[0]);
+		
+		for (int x = 0; x < books.length; x++) {
+			
+			System.out.println(books[x]);
+		}
 
 	}
 
